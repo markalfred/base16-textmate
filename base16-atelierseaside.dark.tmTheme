@@ -503,8 +503,63 @@
 				<string>#131513</string>
 			</dict>
 		</dict>
+
+		<!-- Git -->
+
+		<dict>
+			<key>name</key>
+			<string>Git Diff Filename</string>
+			<key>scope</key>
+			<string>meta.diff.header</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#809980</string>
+				<key>foreground</key>
+				<string>#131513</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>Git Diff Blob</string>
+			<key>scope</key>
+			<string>meta.diff.range.unified</string>
+			<key>settings</key>
+			<dict>
+			<key>fontStyle</key>
+			<string>italic</string>
+			<key>foreground</key>
+			<string>#3d62f5</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>Git Status Branchname</string>
+			<key>scope</key>
+			<string>support.type.git-status.branch</string>
+			<key>settings</key>
+			<dict>
+			<key>foreground</key>
+			<string>#c3c322</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>Git Shas</string>
+			<key>scope</key>
+			<string>source.git-show.commit.sha, entity.other.git-status.hex, entity.other.git-blame.hex, meta.diff.git-diff.header.extended.index.from-sha, meta.diff.git-diff.header.extended.index.to-sha</string>
+			<key>settings</key>
+			<dict>
+			<key>foreground</key>
+			<string>#87711d</string>
+			</dict>
+		</dict>
+
 	</array>
 	<key>uuid</key>
-	<string>3c14fe47-cf15-4849-917f-3b4a9f9504f5</string>
+	<string>26d4ede2-3d9a-4f34-b30e-c8e952a1d9a0</string>
 </dict>
 </plist>
